@@ -9,7 +9,7 @@ app.use(express.json());
 
 const TOKEN_DIR = path.join(__dirname, 'token');
 
-// Ensure the token directory exists
+// Ensure the token directory 
 if (!fs.existsSync(TOKEN_DIR)) {
   fs.mkdirSync(TOKEN_DIR);
 }
